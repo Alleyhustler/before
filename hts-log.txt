@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 10 Aug 2025 19:28:03 at https://cyberarcadia.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://cyberarcadia.com/ -O1 "C:\Users\moham\Downloads\Memecoins\framer\Before The Coin" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:28:11	Error: 	"Not Found" (404) at link https://cyberarcadia.com/Orbitron-webfont.eot? (from https://cyberarcadia.com/splashpage.css)
+19:28:11	Error: 	"Not Found" (404) at link https://cyberarcadia.com/Orbitron-webfont.woff (from https://cyberarcadia.com/splashpage.css)
+19:28:11	Error: 	"Not Found" (404) at link https://cyberarcadia.com/Orbitron-webfont.svg (from https://cyberarcadia.com/splashpage.css)
+19:28:11	Error: 	"Not Found" (404) at link https://cyberarcadia.com/NEWACADEMY-webfont.eot? (from https://cyberarcadia.com/splashpage.css)
+19:28:11	Error: 	"Not Found" (404) at link https://cyberarcadia.com/NEWACADEMY-webfont.woff (from https://cyberarcadia.com/splashpage.css)
+19:28:11	Error: 	"Not Found" (404) at link https://cyberarcadia.com/NEWACADEMY-webfont.svg (from https://cyberarcadia.com/splashpage.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 17 seconds : 50 links scanned, 43 files written (23162230 bytes overall) [23167032 bytes received at 1362766 bytes/sec], 55490 bytes transferred using HTTP compression in 8 files, ratio 44%, 19.6 requests per connection
+(6 errors, 0 warnings, 0 messages)

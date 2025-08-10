@@ -1,0 +1,175 @@
+html {
+background: #464646 url("nightselfie.png") no-repeat center center fixed;
+background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 16px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.container {
+display: flex;
+gap: 10px;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #fff;    }
+    49%{    color: #fff; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #fff;    }
+    
+    }
+
+@font-face {
+	font-family: 'Orbitron';
+	src: url('Orbitron-webfontd41d.html?#iefix') format('embedded-opentype'), 
+	     url('Orbitron-webfont.html') format('woff'), 
+	     url('Orbitron.ttf')  format('truetype'),
+	     url('Orbitron-webfont-2.html#svgFontName') format('svg');
+}
+
+
+@font-face {
+	font-family: 'NEW ACADEMY';
+	src: url('NEWACADEMY-webfontd41d.html?#iefix') format('embedded-opentype'), 
+	     url('NEWACADEMY-webfont.html') format('woff'), 
+	     url('NEWACADEMY.ttf')  format('truetype'),
+	     url('NEWACADEMY-webfont-2.html#svgFontName') format('svg');
+  
+  }
+
+/*Basic Text*/
+p { color: white;
+font-family: 'NEW ACADEMY', serif;
+left:0;
+right:0;
+
+}
+
+
+h1 { color: white;
+font-family: 'NEW ACADEMY', serif;
+text-align: center;
+left:0;
+right:0;
+letter-spacing: 10px;
+word-spacing: 2px;
+text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px green,
+                0 0 30px green,
+                0 0 40px green,
+                0 0 55px green,
+                0 0 70px green;
+}
+
+h2 { color: white;
+font-family: 'NEW ACADEMY', serif;
+text-align: center;
+left:0;
+right:0;
+letter-spacing: 10px;
+word-spacing: 2px;
+text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px green,
+                0 0 30px green,
+                0 0 40px green,
+                0 0 55px green,
+                0 0 70px green;
+}
+
+h3 { color: white;
+font-size: 2em;
+font-family: 'NEW ACADEMY', serif;
+text-align: center;
+left:0;
+right:0;
+letter-spacing: 10px;
+word-spacing: 2px;
+text-shadow: limegreen 1px 0 10px;
+
+}
+
+/*Basic Images*/
+
+img {
+display: block;
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+border-color: #777777;
+border-style: double;
+border-width: 3px;
+}
+ /*list properties */
+ 
+
+#links li {color: #FFFFFF;
+font-family: 'NEW ACADEMY', sans-serif;
+line-height: 150%;
+margin-left: 35px;
+margin-right: 35px;
+padding: 1px;
+}
+
+/*special text*/
+.special {
+  color: white;
+  font-family: 'NEW ACADEMY', serif;
+  text-align:center;
+  letter-spacing: 10px;
+word-spacing: 2px;
+padding:5px;
+}
+
+.player {  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto; 
+}
+
+
+/*links*/
+
+/* unvisited link */
+a:link {
+  color: white;
+text-decoration: none;
+text-shadow: 0 0 20px #2f2d2e;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 0 20px #2f2d2e;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFFFFF;
+  cursor: crosshair;
+  text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px green,
+                0 0 30px green,
+                0 0 40px green,
+                0 0 55px green,
+                0 0 70px green;
+
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) { /* styles */}

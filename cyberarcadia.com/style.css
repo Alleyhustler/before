@@ -1,0 +1,206 @@
+/*Basic background color*/
+html {
+  background: url("images/matrixopen1.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  	}
+  	
+
+  body {
+background-image: url("images/monitordarker.png");
+max-width: 70em;
+margin: 15px auto 15px auto;
+padding: 3em;
+font-family: 'NEW ACADEMY', serif;
+border: #303030 3px solid;
+border-radius: 15px;
+box-shadow: 0 0 10px green; 
+}
+
+
+/*Basic Text*/
+p { color: #dcfadf;
+font-family: sans-serif;
+left:0;
+right:0;
+line-height: 150%;
+}
+
+.small { color: white;
+font-family: sans-serif;
+text-align: center;
+font-size: small;
+}
+
+/*NEW ACADEMY CC By SA (Gustavo Paz). 2014.This Font by Gustavo paz L. is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.*/
+@font-face {
+	font-family: 'NEW ACADEMY';
+	src: url('NEWACADEMY-webfontd41d.html?#iefix') format('embedded-opentype'), 
+	     url('NEWACADEMY-webfont.html') format('woff'), 
+	     url('NEWACADEMY.ttf')  format('truetype'),
+	     url('NEWACADEMY-webfont-2.html#svgFontName') format('svg');
+  }
+  
+@font-face {
+	font-family: 'Orbitron';
+	src: url('Orbitron-webfontd41d.html?#iefix') format('embedded-opentype'), 
+	     url('Orbitron-webfont.html') format('woff'), 
+	     url('Orbitron.ttf')  format('truetype'),
+	     url('Orbitron-webfont-2.html#svgFontName') format('svg');
+	}
+
+
+h1 { color: #dcfadf;
+font-family: 'NEW ACADEMY', serif;
+text-align: center;
+left:0;
+right:0;
+margin: 15;
+padding: 25px 0;
+letter-spacing: 10px;
+word-spacing: 2px; 
+border-bottom: dotted 2px #696969;
+}
+
+h2 { color: #dcfadf;
+font-family: 'NEW ACADEMY', serif;
+text-align: center;
+left:0;
+right:0;
+margin: 15;
+padding: 25px 0;
+letter-spacing: 10px;
+word-spacing: 2px;
+
+
+}
+
+h3 { color: #dcfadf;
+font-family: 'NEW ACADEMY', serif;
+text-align: center;
+left:0;
+right:0;
+margin: 15;
+padding: 25px 0;
+letter-spacing: 10px;
+word-spacing: 2px;
+}
+
+/*Basic Images*/
+
+img {
+display: block;
+margin: 0 auto;
+max-width: 100%;
+height: auto;
+border: double 3px #696969;
+}
+ /*list properties */
+ul {
+  list-style-type: none;
+  line-height: 150%;
+}
+
+
+.nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  font-family: "NEW ACADEMY", sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+/*very special text*/
+.special {
+color: white;
+font-family: 'NEW ACADEMY', sans-serif;
+text-align: center;
+letter-spacing: 10px;
+word-spacing: 2px;
+padding:5px;
+}
+
+/*Scrollbar text box*/
+.textbox {
+border-style: double;
+border-color: #696969;
+background: #000000;
+background-image: url("images/flames2.png");
+box-shadow: 0 0 10px green inset;
+background-attachment: fixed;
+border-width: 3px;
+width: 300px;
+height: 100px;
+overflow-y: scroll; 
+scrollbar-color: #000000 #696969;
+}
+
+#text {
+width: auto;
+top: 5%;
+bottom: 100px;
+height: 300px;
+right: 0;
+text-align: left;
+padding: 25px;
+overflow-y: scroll;
+  
+}
+  
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #fff;    }
+    49%{    color: #fff; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #fff;    }
+    
+    }
+    
+/*links*/
+
+/* unvisited link */
+a:link {
+  color: palegreen;
+text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: palegreen;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFFFFF;
+  cursor: crosshair;
+  text-shadow: 0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px green,
+                0 0 30px green,
+                0 0 40px green,
+                0 0 55px green,
+                0 0 70px green;
+
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+      
+
